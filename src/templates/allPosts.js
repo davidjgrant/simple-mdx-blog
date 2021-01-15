@@ -16,8 +16,8 @@ const allPosts = ({pageContext, data}) => {
         <Container>
             <FeatureImage />
             <Content>
-                <H1 textAlign="center" margin="0 0 1rem 0">guif ufn ksfkjv</H1>
-                <P color="dark2" textAlign="center">wsbn wsi jv kjbsoi nsekbaskjnck bajkbvcsk.</P>
+                <H1 textAlign="center" margin="0 0 1rem 0">Hello World!</H1>
+                <P color="dark2" textAlign="center">Welcome to my First Blog.</P>
                 {posts.map(post => (
                     <ContentCard 
                         key={post.node.frontmatter.slug}
