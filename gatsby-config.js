@@ -1,4 +1,11 @@
 module.exports = {
+  siteMetadata: {
+    title: "My MDX Blog",
+    description: "A simple blog built with Gatsby and MDX",
+    image: "/office.jpg",
+    author: "DavidJGrant",
+  },
+
   /* Your site config here */
   plugins: [
     {
