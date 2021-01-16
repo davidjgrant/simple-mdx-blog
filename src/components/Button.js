@@ -3,6 +3,6 @@ import { ButtonWrapper } from "../elements"
 
 export const Button = ({children, href}) => {
     return (
-        <ButtonWrapper to={href}>{children}</ButtonWrapper>
+        <ButtonWrapper to={"/" + href}>{children}</ButtonWrapper>
     )
 }
